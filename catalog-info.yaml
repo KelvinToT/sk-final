@@ -1,0 +1,9 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: "sk-final"
+  description: This an Azure resource group
+spec:
+  type: Azure
+  owner: user:guest
+  lifecycle: experimental
